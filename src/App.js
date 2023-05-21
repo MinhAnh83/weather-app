@@ -27,10 +27,10 @@ function App() {
         <Container >
           <Navbar.Brand href="#home">React</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home Anh
-            <FaCloudversify /></Nav.Link>
-            <Nav.Link href="/contact">Conact
-            <FaAngular /></Nav.Link>
+            {/* <Nav.Link href="/">Home Anh */}
+            {/* <FaCloudversify /></Nav.Link> */}
+            {/* <Nav.Link href="/contact">Conact
+            <FaAngular /></Nav.Link> */}
           </Nav>
           
           
@@ -50,13 +50,14 @@ function App() {
       </InputGroup> */}
 
       <div className='body'>
-         <BrowserRouter>
+        <Home></Home>
+        {/* <BrowserRouter>
    
-   <Routes>
+      <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/contact" element={<Contact/>} /> 
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
    
     </div>
     
