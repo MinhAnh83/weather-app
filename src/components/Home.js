@@ -182,7 +182,7 @@ setkey(e.target.value)
         (loading) ? <Spinner animation="border" /> : 
           <div>
             <div className='bodyhome'>
-              <h4> Warsaw, PL</h4>
+              <h4> {key}</h4>
               <span >{iconweather}</span>
       <h5 className='info'>{Temper} °C</h5>
 
