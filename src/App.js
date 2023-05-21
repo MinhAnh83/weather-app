@@ -27,7 +27,7 @@ function App() {
         <Container >
           <Navbar.Brand href="#home">React</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home
+            <Nav.Link href="/">Home Anh
             <FaCloudversify /></Nav.Link>
             <Nav.Link href="/contact">Conact
             <FaAngular /></Nav.Link>
